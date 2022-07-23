@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const connect = () => {
     
-    // const url = "mongodb://localhost:27017/users";
-    const url = "mongodb+srv://Neetu:Neetu@cluster0.dr78p.mongodb.net/?retryWrites=true&w=majority"//user:- used after (/?) 
+    const url = "mongodb://localhost:27017/users";
+    // const url = "mongodb+srv://Neetu:Neetu@cluster0.dr78p.mongodb.net/?retryWrites=true&w=majority"//user:- used after (/?) 
     mongoose.connect(url, {
         useNewUrlParser: true,
         // useFindAndModify: true,
